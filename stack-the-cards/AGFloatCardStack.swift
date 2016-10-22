@@ -43,13 +43,9 @@ class AGFloatCardStack: AGFloatCardDelegate
     var superview: UIView? = nil
     
     // Инициализация
-    init(toView: UIView, _delegate: AGFloatCardStackData)
-    {
+    init(toView: UIView, _delegate: AGFloatCardStackData) {
         self.delegate = _delegate
         self.superview = toView;
-        
-        // Запрос карточек
-        // delegate.didRanCards(stack: self)
     }
     
     // Заполнение стека показа

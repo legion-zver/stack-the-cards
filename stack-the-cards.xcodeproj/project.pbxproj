@@ -15,6 +15,7 @@
 		116614611DBBA25B00925D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166145F1DBBA25B00925D7C /* LaunchScreen.storyboard */; };
 		1166146A1DBBA29600925D7C /* AGFloatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116614681DBBA29600925D7C /* AGFloatCard.swift */; };
 		1166146B1DBBA29600925D7C /* AGFloatCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116614691DBBA29600925D7C /* AGFloatCardStack.swift */; };
+		1166146D1DBBA75E00925D7C /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1166146C1DBBA75E00925D7C /* Card.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		116614621DBBA25B00925D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		116614681DBBA29600925D7C /* AGFloatCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGFloatCard.swift; sourceTree = "<group>"; };
 		116614691DBBA29600925D7C /* AGFloatCardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGFloatCardStack.swift; sourceTree = "<group>"; };
+		1166146C1DBBA75E00925D7C /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +66,12 @@
 				116614691DBBA29600925D7C /* AGFloatCardStack.swift */,
 				116614531DBBA25B00925D7C /* AppDelegate.swift */,
 				116614551DBBA25B00925D7C /* ViewController.swift */,
+				1166146C1DBBA75E00925D7C /* Card.xib */,
 				116614571DBBA25B00925D7C /* Main.storyboard */,
-				1166145D1DBBA25B00925D7C /* Assets.xcassets */,
 				1166145F1DBBA25B00925D7C /* LaunchScreen.storyboard */,
-				116614621DBBA25B00925D7C /* Info.plist */,
+				1166145D1DBBA25B00925D7C /* Assets.xcassets */,
 				1166145A1DBBA25B00925D7C /* stack_the_cards.xcdatamodeld */,
+				116614621DBBA25B00925D7C /* Info.plist */,
 			);
 			path = "stack-the-cards";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				116614611DBBA25B00925D7C /* LaunchScreen.storyboard in Resources */,
 				1166145E1DBBA25B00925D7C /* Assets.xcassets in Resources */,
 				116614591DBBA25B00925D7C /* Main.storyboard in Resources */,
+				1166146D1DBBA75E00925D7C /* Card.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
