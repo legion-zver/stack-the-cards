@@ -13,6 +13,8 @@
 		1166145C1DBBA25B00925D7C /* stack_the_cards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1166145A1DBBA25B00925D7C /* stack_the_cards.xcdatamodeld */; };
 		1166145E1DBBA25B00925D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1166145D1DBBA25B00925D7C /* Assets.xcassets */; };
 		116614611DBBA25B00925D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166145F1DBBA25B00925D7C /* LaunchScreen.storyboard */; };
+		1166146A1DBBA29600925D7C /* AGFloatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116614681DBBA29600925D7C /* AGFloatCard.swift */; };
+		1166146B1DBBA29600925D7C /* AGFloatCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116614691DBBA29600925D7C /* AGFloatCardStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1166145D1DBBA25B00925D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116614601DBBA25B00925D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116614621DBBA25B00925D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116614681DBBA29600925D7C /* AGFloatCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGFloatCard.swift; sourceTree = "<group>"; };
+		116614691DBBA29600925D7C /* AGFloatCardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGFloatCardStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		116614521DBBA25B00925D7C /* stack-the-cards */ = {
 			isa = PBXGroup;
 			children = (
+				116614681DBBA29600925D7C /* AGFloatCard.swift */,
+				116614691DBBA29600925D7C /* AGFloatCardStack.swift */,
 				116614531DBBA25B00925D7C /* AppDelegate.swift */,
 				116614551DBBA25B00925D7C /* ViewController.swift */,
 				116614571DBBA25B00925D7C /* Main.storyboard */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1166146A1DBBA29600925D7C /* AGFloatCard.swift in Sources */,
 				1166145C1DBBA25B00925D7C /* stack_the_cards.xcdatamodeld in Sources */,
+				1166146B1DBBA29600925D7C /* AGFloatCardStack.swift in Sources */,
 				116614561DBBA25B00925D7C /* ViewController.swift in Sources */,
 				116614541DBBA25B00925D7C /* AppDelegate.swift in Sources */,
 			);
